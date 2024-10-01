@@ -19,8 +19,10 @@ This is our first project as undergraduate students, developed over **6 months**
 - **Database**: MySQL (using PHPMyAdmin) 
 - **Other Technologies**: WebRTC for live classes 
 
-## Screenshots
-*(Add screenshots of your system here)*
+## Preview
+![Example Preview](https://via.placeholder.com/800x400?text=Example+Preview+Image)  
+*(Add previews of your system here, such as screenshots or demo videos)*
+
 
 ## Collaborators
 - 👤  [Thenuka Liyanage](https://github.com/dilmith456) 

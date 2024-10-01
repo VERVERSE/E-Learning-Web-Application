@@ -20,9 +20,8 @@ This is our first project as undergraduate students, developed over **6 months**
 - **Other Technologies**: WebRTC for live classes 
 
 ## Preview
-![Example Preview](https://via.placeholder.com/800x400?text=Example+Preview+Image)  
-*(Add previews of your system here, such as screenshots or demo videos)*
-
+![SS1](https://github.com/user-attachments/assets/95539615-bd7c-4b71-b87a-dc2bab5cc066)
+![SS2](https://github.com/user-attachments/assets/9ca7368e-7e1f-449e-b7d7-c5a7d1a29d68)
 
 ## Collaborators
 - 👤  [Thenuka Liyanage](https://github.com/dilmith456) 

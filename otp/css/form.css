@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form {
+    position: relative;
+    background: white;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 25px;
+    box-shadow: -3px 3px 15px -5px rgba(0, 0, 0, 5);
+    padding: 30px 30px;
+}
+
+.form h2 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.form p {
+    font-size: 14px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.form form {
+    margin: 10px 0;
+}
+
+.form form .error-text {
+    color: rgb(100, 1, 1);
+    padding: 4px 4px;
+    text-align: center;
+    border-radius: 4px;
+    background: #ffe3f5;
+    border: 1px solid #dfa5ab;
+    margin-bottom: 8px;
+}
+
+.form .grid-detail {
+    display: flex;
+}
+
+.form .grid-detail .input:first-child {
+    margin-right: 8px;
+    width: 100%;
+}
+
+.form .grid-detail .input:last-child {
+    margin-left: 8px;
+    width: 100%;
+}
+
+.form form .input input {
+    height: 35px;
+    width: 100%;
+    font-size: 14px;
+    padding: 0 10px;
+    border: 1px solid #888888;
+    border-radius: 6px;
+    outline: none;
+    margin-bottom: 15px; /* Add margin-bottom to increase space */
+}
+
+.form form .input input:focus,
+.form form .input input:valid {
+    border-color: #050b41;
+    transition: 0.1s ease;
+    outline: none;
+}
+
+.role-input {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 5px;
+}
+
+.role-input label {
+    margin-bottom: 0;
+}
+
+.radio-buttons {
+    display: flex;
+    gap: 25px;
+    align-items: baseline;
+}
+
+.radio-buttons label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.radio-buttons input[type="radio"] {
+    accent-color: #000000;
+}
+
+.form form input.button {
+    height: 45px;
+    border: none;
+    color: #f2f3f7;
+    width: 100%;
+    background: darkblue;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 13px;
+    border: 1px solid rgb(13, 0, 73);
+}
+
+.form .link {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.form .link a {
+    color: #0059ff;
+    transition: 0.5s ease-in-out;
+}
+
+.form .link a:hover {
+    text-decoration: none;
+}
+
+

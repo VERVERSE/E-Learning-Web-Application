@@ -1,0 +1,80 @@
+/* Centering the form vertically and horizontally */
+html, body {
+    height: 100%; /* Ensure the body takes full height */
+    margin: 0; /* Remove default margin */
+}
+
+body {
+    background: white;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+#form {
+    width: 400px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0.5, 0.5, 0.5, 0.5); /* Add shadow for beautification */
+}
+
+/* Styles for headings */
+h1 {
+    text-align: center;
+    color: #0c2c92;
+}
+
+/* Styles for form button */
+#form button {
+    background-color: #0c2c92;
+    color: white;
+    border: 1px solid #0c2c92;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+
+input.box {
+    background-color: white;
+}
+
+/* Styles for input groups */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/* Remove border outline on focus */
+.input-group input:focus {
+    outline: 0;
+}
+
+/* Error styles */
+.input-group .error {
+    color: rgb(242, 18, 18);
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.input-group.success input {
+    border-color: #0cc477;
+}
+
+.input-group.error input {
+    border-color: rgb(206, 67, 67);
+}

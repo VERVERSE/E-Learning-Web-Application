@@ -1,0 +1,198 @@
+/* General styling for the section */
+.home-grid {
+    padding: 20px;
+    background-color: #f4f4f4;
+ }
+ 
+ .heading {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+ }
+
+ .container {
+   max-width: 1200px;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: space-between;
+}
+
+.home-grid .stats {
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 20px;
+}
+
+.stat-item {
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   text-align: center;
+   flex: 1;
+   margin: 0 10px;
+}
+
+.stat-item i {
+   font-size: 2.5rem; /* Increased icon size */
+   margin-bottom: 10px;
+   color: #333;
+}
+
+.stat-item h3 {
+   font-size: 2rem; /* Increased count size */
+   margin: 10px 0;
+}
+
+.stat-item p {
+   font-size: 1.2rem; /* Increased label size */
+}
+
+.heading {
+   font-size: 2rem; /* Increased heading size */
+   margin-bottom: 20px;
+   color: #333;
+   border-bottom: 2px solid #ddd;
+   padding-bottom: 10px;
+}
+
+.course-messages-box {
+   display: flex;
+   gap: 20px;
+   justify-content: space-between;
+}
+
+.course-progress-box, .messages-box {
+   flex: 1;
+   background-color: #fff; /* Neutral background for both boxes */
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.course-progress-box {
+   background-color: #e6f7ff; /* Light blue background */
+}
+
+.messages-box {
+   background-color: #f9f9f9; /* Changed to light gray */
+}
+
+.course-progress-box .progress-box, .messages-box .message-box {
+   margin-bottom: 15px;
+}
+
+.progress-box h3, .message-box h3 {
+   font-size: 1.5rem; /* Increased section heading size */
+   margin: 0;
+   color: #333;
+}
+
+.progress-box p, .message-box p, .message-box .timestamp {
+   font-size: 1.2rem; /* Increased content size */
+   margin: 5px 0;
+   color: #555;
+}
+
+.progress-bar {
+   height: 10px;
+   background-color: #4caf50;
+   border-radius: 5px;
+   margin-top: 5px;
+}
+
+.message-box .timestamp {
+   font-size: 1rem; /* Increased timestamp size */
+   color: #888;
+}
+
+ /* Styling for the stats container */
+ .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+ }
+ 
+ /* Styling for individual stat items */
+ .stat-item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+ }
+ 
+ .stat-item:hover {
+    background-color: #e0f7fa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .stat-item i {
+    font-size: 2em;
+    color: #007bff;
+    margin-bottom: 10px;
+ }
+ 
+ .stat-item h3 {
+    font-size: 2em;
+    margin: 0;
+    color: #333;
+ }
+ 
+ .stat-item p {
+    margin: 5px 0 0;
+    color: #666;
+ }
+/* Container for the activity feed */
+.activity-feed {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+ }
+ 
+ /* Heading of the activity feed */
+ .activity-feed .heading {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+ }
+ 
+ /* List of activities */
+ .activity-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ /* Each activity item */
+ .activity-list li {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 10px;
+ }
+ 
+ /* Description of the activity */
+ .activity-list p {
+    margin: 0;
+    font-size: 1em;
+    color: #333;
+ }
+ 
+ /* Timestamp of the activity */
+ .activity-list .timestamp {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #666;
+ }
+  

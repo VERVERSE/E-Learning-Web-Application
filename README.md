@@ -23,11 +23,11 @@ This is our first project as undergraduate students, developed over **6 months**
 *(Add screenshots of your system here)*
 
 ## Collaborators
-- 👤 Thenuka Liyanage [GitHub](https://github.com/dilmith456) 
-- 👤 Linara Liyanage [GitHub](https://github.com/eliylinara) 
-- 👤 Linal Chandupa [GitHub](https://github.com/linalchandupa) 
-- 👤 Devmini Gamage [GitHub](https://github.com/devminidinethra) 
-- 👤 Hasala Kithmina [GitHub](https://github.com/KithM4) 
+- 👤  [Thenuka Liyanage](https://github.com/dilmith456) 
+- 👤  [Linara Liyanage](https://github.com/eliylinara) 
+- 👤  [Linal Chandupa](https://github.com/linalchandupa) 
+- 👤  [Devmini Gamage](https://github.com/devminidinethra) 
+- 👤  [Hasala Kithmina](https://github.com/KithM4) 
 
 ## Acknowledgements
 This project was completed with the support of our **lecturers and professors** at LNBTI. It represents a major milestone in our journey as software developers, and we are proud of the teamwork and skills we've demonstrated. 🙌

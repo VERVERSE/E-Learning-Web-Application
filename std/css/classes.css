@@ -1,0 +1,81 @@
+/* Available Classes Section */
+.classes-container {
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.classes-container h3 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.classes-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.classes-container li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #f8f8f8;
+    padding: 20px;
+    width: calc(33.333% - 40px);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.classes-container li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.classes-container li h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-weight: bold;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.classes-container li p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.classes-container li .register-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    align-self: flex-end;
+    transition: background-color 0.3s ease;
+}
+
+.classes-container li .register-btn:hover {
+    background-color: #0056b3;
+}
+
+.classes-container li .register-btn:focus {
+    outline: none;
+}

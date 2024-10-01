@@ -1,0 +1,176 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Container */
+#container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+/* Video Section */
+#videosSection {
+    flex: 2;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-right: 1px solid #ddd;
+}
+
+#videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+video {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: #000;
+}
+
+#controls {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Chat Section */
+#chatSection {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#chatWindow {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+#chatWindow::-webkit-scrollbar {
+    width: 8px;
+}
+
+#chatWindow::-webkit-scrollbar-thumb {
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+#chatInput {
+    display: flex;
+    gap: 10px;
+}
+
+#messageInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    transition: box-shadow 0.3s ease;
+}
+
+#messageInput:focus {
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+    outline: none;
+}
+
+#sendButton {
+    width: 100px;
+    background-color: #28a745;
+    transition: background-color 0.3s ease;
+}
+
+#sendButton:hover {
+    background-color: #218838;
+}
+
+/* Start Class Button */
+#startClassButton {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #17a2b8;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    color: white;
+}
+
+#startClassButton:hover {
+    background-color: #117a8b;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #container {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    #videos {
+        width: 100%;
+    }
+
+    #chatWindow {
+        height: 200px;
+    }
+}

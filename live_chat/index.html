@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebRTC Video Chat with Live Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <!-- Back Button -->
+        <button id="backButton" onclick="goBack()">Back</button>
+
+        <!-- Video Section -->
+        <div id="videosSection">
+            <h2>Online Class Video Chat</h2>
+            
+            <!-- Video elements for local and remote streams -->
+            <div id="videos">
+                <video id="localVideo" autoplay playsinline></video>
+                <video id="remoteVideo" autoplay playsinline></video>
+            </div>
+
+            <!-- Buttons to control video, audio, camera, and microphone -->
+            <div id="controls">
+                <button id="cameraButton">Turn Off Camera</button>
+                <button id="micButton">Turn Off Microphone</button>
+                <button id="startButton">Start Video</button>
+                <button id="endButton" disabled>End Video</button>
+            </div>
+        </div>
+
+        <!-- Chat Section -->
+        <div id="chatSection">
+            <h3>Live Chat</h3>
+            <div id="chatWindow"></div>
+            <div id="chatInput">
+                <input type="text" id="messageInput" placeholder="Type your message here...">
+                <button id="sendButton">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Class Button -->
+    <button id="startClassButton">Start Class</button>
+
+    <!-- Hidden room ID for signaling -->
+    <input type="hidden" id="roomId" value="room123">
+
+    <!-- JavaScript file -->
+    <script src="script.js"></script>
+
+    <!-- Back button functionality -->
+    <script>
+        function goBack() {
+            window.history.back(); // Go to the previous page
+        }
+    </script>
+</body>
+</html>
